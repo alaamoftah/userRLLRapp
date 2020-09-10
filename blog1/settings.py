@@ -16,6 +16,10 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+# used when we define login page to use build-in Django login feature
+LOGIN_REDIRECT_URL = 'blogs-home'
+# used when used decorater at profile restriction 
+LOGIN_URL = 'login'
 
 # Application definition
 
